@@ -3,7 +3,7 @@ cask "kubara" do
   name "kubara"
   desc "Kubara is a single binary CLI tool written in Go providing a lightweight framework for bootstrapping Kubernetes platforms with production-proven best practices"
   homepage "https://github.com/kubara-io/kubara"
-  version "0.6.3"
+  version "0.6.4"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "kubara" do
   on_macos do
     on_intel do
       url "https://github.com/kubara-io/kubara/releases/download/v#{version}/kubara_#{version}_darwin_amd64.tar.gz"
-      sha256 "c0da091b02968ddd72f95997ceb7f6ead0534ce23c5c3a5113afd87f0217dcc9"
+      sha256 "4a04f09210d343e7a8073baf496bb28eb3f4780cb230b46488695eabde8dee0a"
     end
     on_arm do
       url "https://github.com/kubara-io/kubara/releases/download/v#{version}/kubara_#{version}_darwin_arm64.tar.gz"
-      sha256 "ac169a5ff55fb3d4f088411bed1a5eecd01b64851bc4d445ef530c612e92e0db"
+      sha256 "6ac099ffb0ace01c31373877cb505595696b63bbd3a58033ec9b8c82c7a580cb"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/kubara-io/kubara/releases/download/v#{version}/kubara_#{version}_linux_amd64.tar.gz"
-      sha256 "03be5c4e6973290cc50bebbadc086118f60773f52479c42ce91024bb52c58d09"
+      sha256 "812e708a602de772a4a011f5b8b7283d7b301b3eb65ed60dbcf91a62bf59f364"
     end
     on_arm do
       url "https://github.com/kubara-io/kubara/releases/download/v#{version}/kubara_#{version}_linux_arm64.tar.gz"
-      sha256 "cc01289561688ce238d942809b8ae85413fbcd4f10ddbebf85ce09a191968736"
+      sha256 "b0e3d4e7de8e26240f53412c75775324a20bc6c7a32d3d08ed003c84218c24bb"
     end
   end
 
