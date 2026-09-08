@@ -4,21 +4,21 @@ cask "kubara" do
 
   on_macos do
     on_arm do
-      sha256 "f689c9e7e0f49de3f4951c647d03e28df9ad202a408a0b9832b772b7391fb8c2"
+      sha256 "fc0a15360917d125c5dad4164e63957d6fb09e789cf0a594d1d408e965761814"
       url "https://github.com/kubara-io/kubara/releases/download/v#{version}/kubara_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "da7024d409bc4ee38c7df6d0aae4d24722d6323f507f0f760c0facc29cffcb96"
+      sha256 "674f4b8c8c7166d60a489731a4909bd7a56768b85f39babd51ad61598387f8c8"
       url "https://github.com/kubara-io/kubara/releases/download/v#{version}/kubara_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "ce82d04685dbb6e1478d840d23cf9ffa3cc6907d545253b7930d913323790fd8"
+      sha256 "effc52a0dd64be0fb88516683e0f8a7111cc59f225437948917d97c6cc649b1a"
       url "https://github.com/kubara-io/kubara/releases/download/v#{version}/kubara_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "d6eb29463aaa5ac31cb4f27939335379378b22c49fedfb557381bbda59d0e777"
+      sha256 "7f4f7572c7f349b45d9431561a158fb5fa2ac9bb64b58917ed1514c27c6200a5"
       url "https://github.com/kubara-io/kubara/releases/download/v#{version}/kubara_#{version}_linux_amd64.tar.gz"
     end
   end
